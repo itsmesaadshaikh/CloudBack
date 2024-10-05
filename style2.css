@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#topheading {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(72, 72, 220);
+    padding: 0 20px;
+}
+
+#topheading p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    gap: 20px;
+}
+
+
+.sections a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+
+.sections a:hover {
+    background-color: white;
+    color: rgb(72, 72, 220);
+    transform: scale(1.05);
+}
+
+.sections a:active {
+    transform: scale(0.95);
+}
+
+#greetingtxt {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to bottom, rgb(72, 72, 220), rgb(118, 118, 253));
+}
+
+#textsection {
+    display: flex;
+    flex-direction: column; 
+}
+
+#textsection h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+#textsection p {
+    margin: 10px 0 0 0; 
+    font-size: 1.5rem;
+}
+
+#planepic img {
+    height: 10cm;
+    width: 12cm;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#booknow {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 85px;
+    color: white;
+    border: 2px solid white; 
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+#booknow:hover {
+    background-color: white;
+    color: rgb(72, 72, 220);
+    transform: scale(1.05);
+}
+
+#whychoose, #help, #failure, #doineedacc, #fees, #bookintl {
+    margin-left: 23px;
+}
+
+#whychoose p, #help p, #failure p, #doineedacc p, #fees p, #bookintl p {
+    width: 40%;
+}
+
+#qna {
+    background: linear-gradient(to bottom, rgb(118, 118, 253), rgb(139, 139, 253), rgb(157, 157, 246));
+    padding: 20px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 13px;
+    justify-content: space-between;
+}
+
+.gapqna {
+    width: 48%;
+    margin-bottom: 20px; 
+}
+
+.gapqna p {
+    width: 100%;
+    text-align: left;
+}
+
+#bottomcred {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(83, 76, 76);
+    color: white;
+    padding: 5px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: rgb(72, 72, 220);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: rgb(0, 105, 217);
+}
+
+.form-container p {
+    margin-top: 10px;
+}
+
+.form-container a {
+    color: rgb(72, 72, 220);
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}

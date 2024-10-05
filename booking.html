@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="bookingstyle.css">
+</head>
+<body>
+    <div id="topheading">
+        <p>CloudBookings</p>
+        <div class="sections">
+            <a href="main2.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </div>
+    </div>
+    <div class="booking_form">
+        <h2>Book Your Flight</h2>
+        <form id="booking-form">
+            <div class="form_group">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" list="from-options">
+                <datalist id="from-options">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Vadodara">Vadodara</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="New York City">New York City</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Houston">Houston</option>
+                    <option value="Phoenix">Phoenix</option>
+                    <option value="Philadelphia">Philadelphia</option>
+                    <option value="San Antonio">San Antonio</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Austin">Austin</option>
+                    <option value="Jacksonville">Jacksonville</option>
+                    <option value="Fort Worth">Fort Worth</option>
+                    <option value="Columbus">Columbus</option>
+                    <option value="Indianapolis">Indianapolis</option>
+                    <option value="Charlotte">Charlotte</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="Denver">Denver</option>
+                    <option value="London">London</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Rome">Rome</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Brussels">Brussels</option>
+                    <option value="Vienna">Vienna</option>
+                    <option value="Zurich">Zurich</option>
+                    <option value="Geneva">Geneva</option>
+                    <option value="Lisbon">Lisbon</option>
+                    <option value="Munich">Munich</option>
+                    <option value="Dublin">Dublin</option>
+                    <option value="Oslo">Oslo</option>
+                    <option value="Stockholm">Stockholm</option>
+                    <option value="Copenhagen">Copenhagen</option>
+                    <option value="Budapest">Budapest</option>
+                    <option value="Warsaw">Warsaw</option>
+                    <option value="Prague">Prague</option>
+                </datalist>
+            </div>
+            <div class="form_group">
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" list="to-options">
+                <datalist id="to-options">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Vadodara">Vadodara</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="New York City">New York City</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Houston">Houston</option>
+                    <option value="Phoenix">Phoenix</option>
+                    <option value="Philadelphia">Philadelphia</option>
+                    <option value="San Antonio">San Antonio</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Austin">Austin</option>
+                    <option value="Jacksonville">Jacksonville</option>
+                    <option value="Fort Worth">Fort Worth</option>
+                    <option value="Columbus">Columbus</option>
+                    <option value="Indianapolis">Indianapolis</option>
+                    <option value="Charlotte">Charlotte</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="Denver">Denver</option>
+                    <option value="London">London</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Rome">Rome</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Brussels">Brussels</option>
+                    <option value="Vienna">Vienna</option>
+                    <option value="Zurich">Zurich</option>
+                    <option value="Geneva">Geneva</option>
+                    <option value="Lisbon">Lisbon</option>
+                    <option value="Munich">Munich</option>
+                    <option value="Dublin">Dublin</option>
+                    <option value="Oslo">Oslo</option>
+                    <option value="Stockholm">Stockholm</option>
+                    <option value="Copenhagen">Copenhagen</option>
+                    <option value="Budapest">Budapest</option>
+                    <option value="Warsaw">Warsaw</option>
+                    <option value="Prague">Prague</option>
+                </datalist>
+            </div>
+            <div class="form_group">
+                <label for="depart-date">Depart Date:</label>
+                <input type="date" id="depart-date" name="depart-date">
+            </div>
+            <div class="form_group" id="chkretu">
+                <label for="check">Want to book a return flight?</label>
+                <input type="checkbox" name="chk" id="chkret">
+            </div>
+            <div class="form_group" id="return">
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date">
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="popup-close" class="popup-close">&times;</span>
+                    <p>Pax count can't be less than 1</p>
+                </div>
+            </div>
+            <div id="passengers">
+                <label for="number">Number of Passengers?</label>
+                <button id="plus">+</button>
+                <p id="countpax">1</p>
+                <button id="minus">-</button>
+            </div>
+            <button type="submit">Search Flights</button>
+                <div id="flightinfo" style="display:none;">
+                    <div id="operators">
+                        <label>Flight Operators Available :</label>
+                    <label><input type="radio" name="flight-company" value="Spicejet"> Spicejet</label>
+                    <label><input type="radio" name="flight-company" value="AirIndia"> AirIndia</label>
+                    <label><input type="radio" name="flight-company" value="Indigo"> Indigo</label>
+                    <label><input type="radio" name="flight-company" value="Saudia"> Saudia</label>
+                    <label><input type="radio" name="flight-company" value="Emirates"> Emirates</label>
+                    <label><input type="radio" name="flight-company" value="Vistara"> Vistara</label>
+                    </div>
+                    <div id="classtype">
+                        <label>Class :</label>
+                <label><input type="radio" name="class" value="Economy"> Economy</label>
+                <label><input type="radio" name="class" value="First Class"> First Class</label>
+                <label><input type="radio" name="class" value="Business Class"> Business Class</label>
+                    </div>
+                    <button type="submit" id="bookflight">Book Flight</button>
+                </div>
+        </form>
+    </div>
+    <script src="bookjava.js"></script>
+</body>
+</html>

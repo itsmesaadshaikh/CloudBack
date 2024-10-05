@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CloudBookings</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="topheading">
+        <p>CloudBookings</p>
+        <div class="sections">
+            <a href="main2.html">Home</a>
+            <a href="signup.html">Signup</a>
+        </div>
+    </div>
+    <div class="form-container">
+        <h2>Login to CloudBookings</h2>
+        <form action="login.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Signup here</a>.</p>
+    </div>
+</body>
+</html>
